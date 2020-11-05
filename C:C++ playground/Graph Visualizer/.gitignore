@@ -1,0 +1,5 @@
+*.o
+*.qrc
+*.pro
+Makefile
+c_cpp_properties.json
