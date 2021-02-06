@@ -6,7 +6,7 @@ email_list = open("email_file.txt", "a")
 email_list.write('I hope this helps.\n\n')
 
 for i in range(100):
-    web_url = "https://www.yellowpages.co.za/search?what=doctors&pg=" + str(i)
+    web_url = "http://www.yellowpages.co.za/search?what=doctors&pg=" + str(i)
     yellow_pages = requests.get(web_url)
     yellow_pages.raise_for_status()
     yello_soup = bs4.BeautifulSoup(yellow_pages.text, "html.parser")
@@ -34,10 +34,10 @@ for i in range(100):
         else:
             Number_ha.append('')
 
-    print(emails_ha)
-    print(Number_ha)
+    # print(emails_ha)
+    # print(Number_ha)
 
-    ''' for i in range(name_elems.__len__()):
+    for i in range(name_elems.__len__()):
         print(name_elems[i].getText())
         print('Email: ' + emails_ha[i])
         print('Number: ' + Number_ha[i])
