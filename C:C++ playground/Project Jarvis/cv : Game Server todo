@@ -1,0 +1,54 @@
+Frontend:
+    - Menu should slide in honestly
+    - color palatte: Black, White, Green(#85Cd00), Darker Green(#043927)
+    - Font: @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono&display=swap') 
+    Index:
+        - No soy dios.
+        - Image of the day generated regularly.
+        - Blog:
+            - Top 3 latest blogs
+    about:
+        - Well any normal biographical explanation 
+    portfolio:
+        - Github generated portfolio things
+        - and games
+    Blog:
+        - The 3 Buttons.
+        - List of the blogs i have written i expect it's just a return of the database with it and only just the short description.
+        - 'I should also just find a way to create a short blurb for the essays but that later.
+            - Have a cool comment and like section
+        - Each time someone clicks on the blog it adds to the people who read it
+
+        Buttons:
+            - New Blog:
+                - Title
+                - Smol Blurb
+                - Blog Textbox
+                - Author 
+                - Date
+            - Edit Blog
+            - Save
+            - Delete
+            - Upload
+    Games:
+        - Places to download the games but just a list of the games.
+    contact:
+        - Idk a form that asks people to send an email thing for you small expertise in website building.
+Backend:
+    - Mysql:
+        - Database name: PortfolioDatabase
+        - Tables:
+            - BlogTable
+            - Likes table 
+            - Comments
+            - FavouriteImagesTable
+            - Games table
+            - Github pprojects table
+
+    - Docker #You shall figure this out.
+    - Nginx #This too
+    - GUnicorn #This three
+    - Django Backend
+
+
+    
